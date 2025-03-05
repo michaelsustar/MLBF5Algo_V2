@@ -1,7 +1,9 @@
 import statsapi
 
+
 def getAllPitchersFromGames(games):
     return [[game['game_id'], game['home_probable_pitcher'], game['away_probable_pitcher']] for game in games]
+
 
 def findPlayerId(playerName):
     try:
