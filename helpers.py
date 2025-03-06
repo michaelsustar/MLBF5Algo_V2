@@ -11,3 +11,4 @@ def findPlayerId(playerName):
         return playerId
     except:
         return 0
+
